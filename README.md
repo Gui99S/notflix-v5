@@ -1,12 +1,73 @@
-# React + Vite
+Visão Geral: Você deverá criar uma aplicação em React que consuma a API do TMDB (ou OMDb) para permitir que usuários busquem filmes, vejam detalhes e montem uma lista de favoritos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Funcionalidades Obrigatórias
 
-Currently, two official plugins are available:
+1. Página de Busca:
+    Um campo de texto para o usuário digitar o termo.
+    Exibir lista de resultados com pôster, título, ano e botão para ver detalhes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Paginação:
+    Permitir navegar pelas páginas de resultados.
 
-## Expanding the ESLint configuration
+3. Página de Detalhes:
+    Exibir informações completas (diretor, elenco, sinopse, avaliação) ao clicar em um filme.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Lista de Favoritos:
+    Botão para adicionar/remover filmes da lista de favoritos.
+    Persistir favoritos em localStorage.
+
+5. Tratamento de Erros & Loading:
+    Exibir indicador enquanto aguarda resposta e mensagens de erro quando necessário.
+
+---------------------------------------------------------------------=====================================================================---------------------------------------------------------------------
+
+# Meu Projeto React
+
+Um catálogo interativo de filmes desenvolvido em React, que consome dados da API TMDB. A aplicação permite ao usuário buscar filmes por título, visualizar detalhes completos de cada filme (incluindo diretor, elenco, sinopse, avaliação, etc), filtrar resultados por gênero, e navegar entre páginas de resultados. Além disso, o usuário pode montar uma lista personalizada de favoritos, adicionando ou removendo filmes, com persistência automática no navegador via localStorage. O sistema oferece feedback visual durante carregamentos e erros, proporcionando uma experiência fluida e intuitiva.
+
+## 🚀 Tecnologias
+
+- **Framework Frontend:** React
+- **Build:** Vite
+- **Roteamento:** React Router DOM
+- **Hooks:** React Use
+
+## 💻 Primeiros Passos
+
+Siga estes passos para obter uma cópia local funcionando.
+
+### Pré-requisitos
+
+Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+*   [Node.js](https://nodejs.org/) (que vem com o npm)
+
+### Instalação
+
+1.  **Clone o repositório**
+    ```bash
+    git clone https://github.com/seu-username/seu-nome-de-repositorio.git
+    cd seu-nome-de-repositorio
+    ```
+
+2.  **Instale os pacotes NPM**
+    Este projeto usa Vite e requer dependências específicas. Execute:
+    ```bash
+    npm install
+    ```
+    *Isso instalará todos os pacotes necessários, incluindo:*
+    - `react-router-dom` para roteamento.
+    - `react-use` para hooks adicionais.
+
+3.  **Inicie o servidor de desenvolvimento**
+    ```bash
+    npm run dev
+    ```
+    Abra o link do localhost fornecido pelo terminal [http://localhost:5137] em seu navegador para visualizar a aplicação.
+
+## 📜 Scripts Disponíveis
+
+No diretório do projeto, você pode executar:
+
+- `npm run dev` - Inicia o servidor de desenvolvimento com Vite.
+- `npm run build` - Constrói o aplicativo para produção na pasta `dist`.
+- `npm run preview` - Pré-visualiza a build de produção localmente.
