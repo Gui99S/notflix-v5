@@ -5,7 +5,7 @@ import MovieDetails from './pages/MovieDetails.jsx';
 import Navbar from './components/Layout/Navbar.jsx';
 import Catalogue from './pages/Catalogue.jsx';
 import Favorites from './pages/Favorites.jsx';
-import { useTheme } from './context/ThemeContext';
+import { useTheme } from './context/ThemeContext.jsx';
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;

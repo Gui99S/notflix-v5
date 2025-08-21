@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useTheme } from '../context/ThemeContext'
+import { useTheme } from '../context/ThemeContext.jsx'
 import { useNavigate } from 'react-router-dom';
 
 function Search({ setSearchTerm, setLoading, setError }) {

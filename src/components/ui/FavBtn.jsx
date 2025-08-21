@@ -1,5 +1,5 @@
 import React from 'react';
-import { useFavorites } from '../../context/FavoritesContext';
+import { useFavorites } from '../../context/FavoritesContext.jsx';
 
 const FavBtn = ({ movie }) => {
   const { isFavorite, addFavorite, removeFavorite } = useFavorites();

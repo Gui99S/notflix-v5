@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useFavorites } from '../context/FavoritesContext';
+import { useFavorites } from '../context/FavoritesContext.jsx';
 import MovieCard from '../components/ui/MovieCard.jsx';
 import RandomizeFav from '../utilities/Favorites/RandomizeFav.jsx';
 import SortFavByGenre from '../utilities/Favorites/SortFavByGenre.jsx';

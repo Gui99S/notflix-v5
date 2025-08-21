@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTheme } from '../context/ThemeContext'
+import { useTheme } from '../context/ThemeContext.jsx'
 
 const Filter = ({ selectedGenre, setSelectedGenre, genres, allMovies, setFilteredMovies }) => {
   const { darkMode } = useTheme();

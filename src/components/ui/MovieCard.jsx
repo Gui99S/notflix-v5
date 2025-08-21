@@ -1,9 +1,9 @@
 import React from 'react'
 import starIcon from '../../assets/star.png';
 import noMovie from '../../assets/no-movie.png';
-import { useTheme } from '../../context/ThemeContext'
+import { useTheme } from '../../context/ThemeContext.jsx';
 import FavBtn from './FavBtn.jsx';
-import { useFavorites } from '../../context/FavoritesContext';
+import { useFavorites } from '../../context/FavoritesContext.jsx';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
