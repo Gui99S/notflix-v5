@@ -19,11 +19,10 @@ Funcionalidades Obrigatórias
 5. Tratamento de Erros & Loading:
     Exibir indicador enquanto aguarda resposta e mensagens de erro quando necessário.
 
----------------------------------------------------------------------=====================================================================---------------------------------------------------------------------
 
-# Meu Projeto React
+# Notflix (v5)
 
-Um catálogo interativo de filmes desenvolvido em React, que consome dados da API TMDB. A aplicação permite ao usuário buscar filmes por título, visualizar detalhes completos de cada filme (incluindo diretor, elenco, sinopse, avaliação, etc), filtrar resultados por gênero, e navegar entre páginas de resultados. Além disso, o usuário pode montar uma lista personalizada de favoritos, adicionando ou removendo filmes, com persistência automática no navegador via localStorage. O sistema oferece feedback visual durante carregamentos e erros, proporcionando uma experiência fluida e intuitiva.
+Um catálogo interativo de filmes desenvolvido em React, que consome dados da API do TMDB. A aplicação permite ao usuário buscar filmes por título, visualizar detalhes completos de cada filme (incluindo diretor, elenco, sinopse, avaliação, etc), filtrar resultados por gênero, e navegar entre páginas de resultados. Além disso, o usuário pode montar uma lista personalizada de favoritos, adicionando ou removendo filmes, com persistência automática no navegador via localStorage. O sistema oferece feedback visual durante carregamentos e erros, proporcionando uma experiência fluida e intuitiva.
 
 ## 🚀 Tecnologias
 
@@ -45,8 +44,8 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina.
 
 1.  **Clone o repositório**
     ```bash
-    git clone https://github.com/seu-username/seu-nome-de-repositorio.git
-    cd seu-nome-de-repositorio
+    git clone [https://github.com/seu-username/seu-nome-de-repositorio.git](https://github.com/Gui99S/notflix-v5)
+    cd notflix-v5
     ```
 
 2.  **Instale os pacotes NPM**
