@@ -1,4 +1,4 @@
-"Visão Geral: Você deverá criar uma aplicação em React que consuma a API do TMDB (ou OMDb) para permitir que usuários busquem filmes, vejam detalhes e montem uma lista de favoritos.
+Visão Geral: Você deverá criar uma aplicação em React que consuma a API do TMDB (ou OMDb) para permitir que usuários busquem filmes, vejam detalhes e montem uma lista de favoritos.
 
 Funcionalidades Obrigatórias
 
@@ -17,7 +17,7 @@ Funcionalidades Obrigatórias
     Persistir favoritos em localStorage.
 
 5. Tratamento de Erros & Loading:
-    Exibir indicador enquanto aguarda resposta e mensagens de erro quando necessário."
+    Exibir indicador enquanto aguarda resposta e mensagens de erro quando necessário.
 
 
 # Notflix (v5)
