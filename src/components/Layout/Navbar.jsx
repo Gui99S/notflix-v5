@@ -1,6 +1,7 @@
 import { useTheme } from '../../context/ThemeContext.jsx';
 import { Link, useLocation } from 'react-router-dom';
 import ModeToggle from '../../theme/ModeToggle.jsx';
+import logo from '../../assets/icon.png';
 
 const Navbar = () => {
     const { darkMode } = useTheme();
@@ -16,7 +17,7 @@ const Navbar = () => {
             boxShadow: darkMode ? '0 2px 10px rgba(0, 0, 0, 0.5)' : '0 2px 10px rgba(0, 0, 0, 0.1)',
             '--mode-toggle-border': darkMode ? '#3f3f46' : '#e5e7eb',
         }} draggable={false} onDragStart={e => e.preventDefault()}>
-            <img className='logo' src="/public/icon.png" alt="NotFlix Logo" />
+            <img className='logo' src={logo} alt="NotFlix Logo" />
             <ul>
                 <li>
                     <Link to="/" className="navbar-link" style={{
