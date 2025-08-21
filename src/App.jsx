@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx';
 import MovieDetails from './pages/MovieDetails.jsx';
 import Navbar from './components/Layout/Navbar.jsx';
