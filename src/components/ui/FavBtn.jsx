@@ -13,10 +13,8 @@ const FavBtn = ({ movie }) => {
   };
 
   return (
-    <button
-      onClick={handleClick}
-      aria-label={isFavorite(movie.id) ? 'Remove from favorites' : 'Add to favorites'}
-      style={{
+    <button className="favBtn" onClick={handleClick}
+      aria-label={isFavorite(movie.id) ? 'Remove from favorites' : 'Add to favorites'} style={{
         color: isFavorite(movie.id) ? '#FF1744' : '#FF4081',
         background: 'none',
         fontSize: '1.4em',
