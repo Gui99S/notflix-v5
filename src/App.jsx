@@ -158,7 +158,7 @@ const randomizeMovies = async () => {
             setSearchTerm={setSearchTerm}
             setError={setErrorMessage}
             setLoading={setIsLoading}
-            setMovies={setFilteredMovies} // This should update the movies shown in Catalogue
+            setMovies={setFilteredMovies}
           />
           <Routes>
             <Route

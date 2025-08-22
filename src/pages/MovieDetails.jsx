@@ -66,13 +66,15 @@ const MovieDetails = () => {
   return (
     <div style={{
       minHeight: '100%',
+      maxWidth: '100vw',
       background: darkMode ? '#18181b' : '#f9fafb',
-      width: '100%',
+      overflowX: 'hidden',
+      marginBottom: '2em',
     }}>
     <div className='movie-details-flex' style={{
         boxShadow: darkMode
-          ? '0 4px 24px rgba(30,41,59,0.35)'
-          : '0 4px 24px rgba(30,41,59,0.12)',
+          ? '0 3px 08px rgba(30,41,59,0.35)'
+          : '0 3px 08px rgba(30,41,59,0.12)',
         background: darkMode ? '#18181b' : '#fff',
       }}>
       {/* Left Container */}

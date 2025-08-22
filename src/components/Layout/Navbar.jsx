@@ -17,12 +17,15 @@ const Navbar = () => {
             boxShadow: darkMode ? '0 2px 10px rgba(0, 0, 0, 0.5)' : '0 2px 10px rgba(0, 0, 0, 0.1)',
             '--mode-toggle-border': darkMode ? '#3f3f46' : '#e5e7eb',
         }} draggable={false} onDragStart={e => e.preventDefault()}>
-            <img className='logo' src={logo} alt="NotFlix Logo" />
+
+            <img className='logo' src={logo} alt="Notflix Logo" />
+
             <ul>
                 <li>
                     <Link to="/" className="navbar-link" style={{
                             color: baseTextColor,
                             fontWeight: location.pathname === '/' ? 'bold' : 'normal',
+                            borderRight: `3px solid ${darkMode ? '#3f3f46' : '#e5e7eb'}`,
                         }}>
                         Search
                     </Link>
@@ -31,6 +34,7 @@ const Navbar = () => {
                     <Link to="/catalogue" className="navbar-link" style={{
                             color: baseTextColor,
                             fontWeight: location.pathname === '/catalogue' ? 'bold' : 'normal',
+                            borderRight: `3px solid ${darkMode ? '#3f3f46' : '#e5e7eb'}`,
                         }}>
                         Catalogue
                     </Link>
@@ -44,7 +48,7 @@ const Navbar = () => {
                     </Link>
                 </li>
             </ul>
-            <div style={{ height: '100%', display: 'flex', alignItems: 'center', }}>
+            <div style={{ height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <ModeToggle />
             </div>
         </nav>

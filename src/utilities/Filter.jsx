@@ -23,7 +23,7 @@ const Filter = ({ selectedGenre, setSelectedGenre, genres, allMovies, setFiltere
       <select value={selectedGenre} onChange={handleGenreChange} style={{
         backgroundColor: darkMode ? '#18181b' : '#fff',
         color: darkMode ? '#f9fafb' : '#18181b',
-        border: `1px solid ${darkMode ? '#3f3f46' : 'rgba(249,250,251,0.10)'}`,
+        border: `1px solid ${darkMode ? '#3f3f46' : '#999'}`,
         boxShadow: darkMode ? 'none' : 'rgba(0, 0, 0, 0.1) 0px 2px 8px',
       }}>
       <option value="">Any Genre</option>
